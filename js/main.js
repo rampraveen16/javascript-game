@@ -156,9 +156,9 @@ var game = {
 
     nextLevel: function(level) {
         game.level = level;
-        var levelTwo = new game.config(game.level, 1, 900, 30, 0, 4000);
+        var levelTwo = new game.config(game.level, 1, 900, 25, 0, 4000);
     }
 };
 
-var game_obj = new game.config(1, 1, 600, 20, 0, 7000);
+var game_obj = new game.config(1, 1, 600, 15, 0, 7000);
 game.init();
