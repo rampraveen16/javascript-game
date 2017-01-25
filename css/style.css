@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+.container {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: #000;
+  left:50%;
+  top:50%;
+  margin: -300px;
+  font-family: cursive;
+  overflow: hidden;
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+
+}
+.gun {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: red;
+  bottom: 0;
+  top: auto;
+  border-radius: 0%;
+}
+article {
+  display: block;
+  text-align: center;
+  color: #fff;
+  margin-top: 50%;
+
+}
+.level {
+  position: absolute;
+  color: #fff;
+  top:10px;
+  left:10px;
+  font-size: 13px;
+}
+.score {
+  position: absolute;
+  color: #fff;
+  top:10px;
+  right:10px;
+  font-size: 13px;
+}
+.target {
+  position: absolute;
+  color: #fff;
+  top:10px;
+  left:30%;
+  font-size: 13px;
+}
+.ballLeft {
+  position: absolute;
+  color: #fff;
+  top:10px;
+  right:25%;
+  font-size: 13px;
+}
+i {
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #fff;
+  top:100%;
+  position: absolute;
+}
+span {
+  position: absolute;
+  background: red;
+  width:50px;
+  height: 10px;
+}
